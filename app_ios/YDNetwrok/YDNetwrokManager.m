@@ -16,7 +16,7 @@
 
 @end
 
-static NSInteger NETWORK_ERROR = 1000001;
+static const NSInteger NETWORK_ERROR = 1000001;
 
 @implementation YDNetwrokManager
 

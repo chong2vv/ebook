@@ -24,6 +24,7 @@
 #pragma mark ----------- macros
 #import "YDColorMacros.h"
 #import "YDPublicMacros.h"
+#import "YDStringValueMacros.h"
 
 
 #pragma mark ----------- common
