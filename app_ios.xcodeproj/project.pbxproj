@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A8C753223F4C4D00A30864 /* YDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C752223F4C4D00A30864 /* YDBaseViewController.m */; };
+		15A8C758223F4D9700A30864 /* YDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C757223F4D9700A30864 /* YDBaseModel.m */; };
+		15A8C75B223F4EC700A30864 /* YDBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C75A223F4EC700A30864 /* YDBaseDataController.m */; };
+		15A8C75E223F4FA700A30864 /* YDBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C75D223F4FA700A30864 /* YDBaseViewModel.m */; };
+		15A8C763223F502300A30864 /* YDCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C762223F502300A30864 /* YDCommonUtil.m */; };
+		15A8C767223F50BC00A30864 /* YDPlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C766223F50BC00A30864 /* YDPlistManager.m */; };
+		15A8C76B223F534C00A30864 /* YDNetWorkCheckManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C76A223F534C00A30864 /* YDNetWorkCheckManager.m */; };
+		15A8C76E223F548600A30864 /* YDNetwrokManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C76D223F548600A30864 /* YDNetwrokManager.m */; };
+		15A8C772223F5D9600A30864 /* YDCommonUtil+YDVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C771223F5D9600A30864 /* YDCommonUtil+YDVerify.m */; };
+		15A8C77A223F68C500A30864 /* YDBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C779223F68C500A30864 /* YDBaseNavigationController.m */; };
+		15A8C77D223F692F00A30864 /* YDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8C77C223F692F00A30864 /* YDBaseTableViewCell.m */; };
 		15AC9F5F223E3FE0008B1E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AC9F5D223E3FE0008B1E9B /* Main.storyboard */; };
 		15AC9F61223E3FE1008B1E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AC9F60223E3FE1008B1E9B /* Assets.xcassets */; };
 		15AC9F64223E3FE1008B1E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AC9F62223E3FE1008B1E9B /* LaunchScreen.storyboard */; };
@@ -52,6 +63,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A8C751223F4C4D00A30864 /* YDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseViewController.h; sourceTree = "<group>"; };
+		15A8C752223F4C4D00A30864 /* YDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseViewController.m; sourceTree = "<group>"; };
+		15A8C756223F4D9700A30864 /* YDBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseModel.h; sourceTree = "<group>"; };
+		15A8C757223F4D9700A30864 /* YDBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseModel.m; sourceTree = "<group>"; };
+		15A8C759223F4EC700A30864 /* YDBaseDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseDataController.h; sourceTree = "<group>"; };
+		15A8C75A223F4EC700A30864 /* YDBaseDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseDataController.m; sourceTree = "<group>"; };
+		15A8C75C223F4FA600A30864 /* YDBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseViewModel.h; sourceTree = "<group>"; };
+		15A8C75D223F4FA700A30864 /* YDBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseViewModel.m; sourceTree = "<group>"; };
+		15A8C761223F502300A30864 /* YDCommonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCommonUtil.h; sourceTree = "<group>"; };
+		15A8C762223F502300A30864 /* YDCommonUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCommonUtil.m; sourceTree = "<group>"; };
+		15A8C765223F50BC00A30864 /* YDPlistManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPlistManager.h; sourceTree = "<group>"; };
+		15A8C766223F50BC00A30864 /* YDPlistManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPlistManager.m; sourceTree = "<group>"; };
+		15A8C769223F534C00A30864 /* YDNetWorkCheckManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNetWorkCheckManager.h; sourceTree = "<group>"; };
+		15A8C76A223F534C00A30864 /* YDNetWorkCheckManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNetWorkCheckManager.m; sourceTree = "<group>"; };
+		15A8C76C223F548600A30864 /* YDNetwrokManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNetwrokManager.h; sourceTree = "<group>"; };
+		15A8C76D223F548600A30864 /* YDNetwrokManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNetwrokManager.m; sourceTree = "<group>"; };
+		15A8C76F223F565600A30864 /* YDUrlMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUrlMacros.h; sourceTree = "<group>"; };
+		15A8C770223F5D9600A30864 /* YDCommonUtil+YDVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDCommonUtil+YDVerify.h"; sourceTree = "<group>"; };
+		15A8C771223F5D9600A30864 /* YDCommonUtil+YDVerify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YDCommonUtil+YDVerify.m"; sourceTree = "<group>"; };
+		15A8C773223F60FF00A30864 /* YDColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDColorMacros.h; sourceTree = "<group>"; };
+		15A8C774223F670100A30864 /* YDPublicMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPublicMacros.h; sourceTree = "<group>"; };
+		15A8C778223F68C500A30864 /* YDBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseNavigationController.h; sourceTree = "<group>"; };
+		15A8C779223F68C500A30864 /* YDBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseNavigationController.m; sourceTree = "<group>"; };
+		15A8C77B223F692F00A30864 /* YDBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseTableViewCell.h; sourceTree = "<group>"; };
+		15A8C77C223F692F00A30864 /* YDBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseTableViewCell.m; sourceTree = "<group>"; };
 		15AC9F54223E3FE0008B1E9B /* app_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AC9F5E223E3FE0008B1E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15AC9F60223E3FE1008B1E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +169,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15A8C750223F4C2300A30864 /* YDBase */ = {
+			isa = PBXGroup;
+			children = (
+				15A8C75F223F4FBC00A30864 /* YDFoundation */,
+				15A8C754223F4CDA00A30864 /* YDUIKitBase */,
+			);
+			path = YDBase;
+			sourceTree = "<group>";
+		};
+		15A8C754223F4CDA00A30864 /* YDUIKitBase */ = {
+			isa = PBXGroup;
+			children = (
+				15A8C751223F4C4D00A30864 /* YDBaseViewController.h */,
+				15A8C752223F4C4D00A30864 /* YDBaseViewController.m */,
+				15A8C778223F68C500A30864 /* YDBaseNavigationController.h */,
+				15A8C779223F68C500A30864 /* YDBaseNavigationController.m */,
+				15A8C77B223F692F00A30864 /* YDBaseTableViewCell.h */,
+				15A8C77C223F692F00A30864 /* YDBaseTableViewCell.m */,
+			);
+			path = YDUIKitBase;
+			sourceTree = "<group>";
+		};
+		15A8C75F223F4FBC00A30864 /* YDFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				15A8C756223F4D9700A30864 /* YDBaseModel.h */,
+				15A8C757223F4D9700A30864 /* YDBaseModel.m */,
+				15A8C759223F4EC700A30864 /* YDBaseDataController.h */,
+				15A8C75A223F4EC700A30864 /* YDBaseDataController.m */,
+				15A8C75C223F4FA600A30864 /* YDBaseViewModel.h */,
+				15A8C75D223F4FA700A30864 /* YDBaseViewModel.m */,
+			);
+			path = YDFoundation;
+			sourceTree = "<group>";
+		};
+		15A8C760223F4FEB00A30864 /* YDCommon */ = {
+			isa = PBXGroup;
+			children = (
+				15A8C761223F502300A30864 /* YDCommonUtil.h */,
+				15A8C762223F502300A30864 /* YDCommonUtil.m */,
+				15A8C770223F5D9600A30864 /* YDCommonUtil+YDVerify.h */,
+				15A8C771223F5D9600A30864 /* YDCommonUtil+YDVerify.m */,
+			);
+			path = YDCommon;
+			sourceTree = "<group>";
+		};
+		15A8C764223F507100A30864 /* YDManager */ = {
+			isa = PBXGroup;
+			children = (
+				15A8C765223F50BC00A30864 /* YDPlistManager.h */,
+				15A8C766223F50BC00A30864 /* YDPlistManager.m */,
+			);
+			path = YDManager;
+			sourceTree = "<group>";
+		};
+		15A8C768223F52CD00A30864 /* YDNetwrok */ = {
+			isa = PBXGroup;
+			children = (
+				15A8C769223F534C00A30864 /* YDNetWorkCheckManager.h */,
+				15A8C76A223F534C00A30864 /* YDNetWorkCheckManager.m */,
+				15A8C76C223F548600A30864 /* YDNetwrokManager.h */,
+				15A8C76D223F548600A30864 /* YDNetwrokManager.m */,
+				15A8C76F223F565600A30864 /* YDUrlMacros.h */,
+			);
+			path = YDNetwrok;
+			sourceTree = "<group>";
+		};
 		15AC9F4B223E3FE0008B1E9B = {
 			isa = PBXGroup;
 			children = (
@@ -158,12 +261,12 @@
 		15AC9F56223E3FE0008B1E9B /* app_ios */ = {
 			isa = PBXGroup;
 			children = (
+				15A8C768223F52CD00A30864 /* YDNetwrok */,
+				15A8C764223F507100A30864 /* YDManager */,
+				15A8C750223F4C2300A30864 /* YDBase */,
 				15AC9F9D223E407C008B1E9B /* YDUtil */,
 				15AC9F9C223E4070008B1E9B /* YDThirdParty */,
-				15AC9F9B223E4068008B1E9B /* YDModules */,
-				15AC9F9A223E4061008B1E9B /* YDManager */,
 				15AC9F99223E4055008B1E9B /* YDMacros */,
-				15AC9F98223E404C008B1E9B /* YDBaseClass */,
 				15AC9F97223E403F008B1E9B /* YDAppDelegate */,
 				15AC9F5D223E3FE0008B1E9B /* Main.storyboard */,
 				15AC9F60223E3FE1008B1E9B /* Assets.xcassets */,
@@ -205,33 +308,14 @@
 			path = YDAppDelegate;
 			sourceTree = "<group>";
 		};
-		15AC9F98223E404C008B1E9B /* YDBaseClass */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YDBaseClass;
-			sourceTree = "<group>";
-		};
 		15AC9F99223E4055008B1E9B /* YDMacros */ = {
 			isa = PBXGroup;
 			children = (
 				15AC9FAA223E414E008B1E9B /* YDPrefixHeader.pch */,
+				15A8C773223F60FF00A30864 /* YDColorMacros.h */,
+				15A8C774223F670100A30864 /* YDPublicMacros.h */,
 			);
 			path = YDMacros;
-			sourceTree = "<group>";
-		};
-		15AC9F9A223E4061008B1E9B /* YDManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YDManager;
-			sourceTree = "<group>";
-		};
-		15AC9F9B223E4068008B1E9B /* YDModules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YDModules;
 			sourceTree = "<group>";
 		};
 		15AC9F9C223E4070008B1E9B /* YDThirdParty */ = {
@@ -245,8 +329,8 @@
 		15AC9F9D223E407C008B1E9B /* YDUtil */ = {
 			isa = PBXGroup;
 			children = (
+				15A8C760223F4FEB00A30864 /* YDCommon */,
 				15AC9FA0223E409A008B1E9B /* YDObjcRuntime */,
-				15AC9F9F223E4093008B1E9B /* YDCommon */,
 				15AC9F9E223E408B008B1E9B /* YDCategory */,
 			);
 			path = YDUtil;
@@ -260,13 +344,6 @@
 				15AC9FB0223E4578008B1E9B /* YDCategory.h */,
 			);
 			path = YDCategory;
-			sourceTree = "<group>";
-		};
-		15AC9F9F223E4093008B1E9B /* YDCommon */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YDCommon;
 			sourceTree = "<group>";
 		};
 		15AC9FA0223E409A008B1E9B /* YDObjcRuntime */ = {
@@ -527,19 +604,30 @@
 			files = (
 				15AC9FD1223E80A8008B1E9B /* NSArray+YDCommon.m in Sources */,
 				15AC9F67223E3FE1008B1E9B /* main.m in Sources */,
+				15A8C77A223F68C500A30864 /* YDBaseNavigationController.m in Sources */,
 				15AC9FC8223E76DF008B1E9B /* UIScrollView+YDCommon.m in Sources */,
 				15AC9FC5223E73DC008B1E9B /* UITableView+YDCommon.m in Sources */,
+				15A8C753223F4C4D00A30864 /* YDBaseViewController.m in Sources */,
+				15A8C763223F502300A30864 /* YDCommonUtil.m in Sources */,
 				15AC9FCB223E78D3008B1E9B /* UIControl+YDCommon.m in Sources */,
+				15A8C76E223F548600A30864 /* YDNetwrokManager.m in Sources */,
 				15AC9FBF223E62C7008B1E9B /* UITextField+YDCommon.m in Sources */,
 				15AC9FBC223E60CB008B1E9B /* UIView+YDCommon.m in Sources */,
 				15AC9FD4223E8AD6008B1E9B /* NSString+YDCommon.m in Sources */,
+				15A8C767223F50BC00A30864 /* YDPlistManager.m in Sources */,
+				15A8C75B223F4EC700A30864 /* YDBaseDataController.m in Sources */,
 				15AC9FDA223E8E5D008B1E9B /* UIColor+YDCommon.m in Sources */,
 				15AC9FE1223E950B008B1E9B /* NSObject+YYModel.m in Sources */,
+				15A8C772223F5D9600A30864 /* YDCommonUtil+YDVerify.m in Sources */,
 				15AC9FD7223E8C58008B1E9B /* NSData+YDCommon.m in Sources */,
 				15AC9FB7223E4BD9008B1E9B /* UIImage+YDCommon.m in Sources */,
 				15AC9FAD223E42B2008B1E9B /* YDObjcRuntime.m in Sources */,
 				15AC9FE2223E950B008B1E9B /* YYClassInfo.m in Sources */,
+				15A8C77D223F692F00A30864 /* YDBaseTableViewCell.m in Sources */,
+				15A8C76B223F534C00A30864 /* YDNetWorkCheckManager.m in Sources */,
 				15AC9FCE223E7D36008B1E9B /* UIDevice+YDCommon.m in Sources */,
+				15A8C758223F4D9700A30864 /* YDBaseModel.m in Sources */,
+				15A8C75E223F4FA700A30864 /* YDBaseViewModel.m in Sources */,
 				15AC9FC2223E6850008B1E9B /* NSDate+YDCommon.m in Sources */,
 				15AC9FA7223E40AE008B1E9B /* YDAppDelegate.m in Sources */,
 				15AC9FA9223E40AE008B1E9B /* YDAppDelegate+YDPushService.m in Sources */,
