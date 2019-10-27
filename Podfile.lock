@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - ArtAvoidCrash (1.0.3)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -44,6 +45,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - ArtAvoidCrash (~> 1.0.3)
   - BlocksKit (~> 2.2.5)
   - Bugly
   - IQKeyboardManager
@@ -57,6 +59,8 @@ DEPENDENCIES:
   - TTTAttributedLabel
 
 SPEC REPOS:
+  http://gitlab.meishubao.com/ArtPods/ArtPodRepo.git:
+    - ArtAvoidCrash
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - BlocksKit
@@ -73,6 +77,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ArtAvoidCrash: 660120833b22f1c5d922f783fd92ce13dd5a9824
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
@@ -85,6 +90,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 737824c93e0596c6b47dac940352486097d7a576
+PODFILE CHECKSUM: 759a9fc14d00da08b99f6aca5b3b874abe4ab2b0
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
