@@ -17,6 +17,12 @@
 // 初始化window
 - (void)initWindow {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 从 Main.storyboard 加载根视图控制器
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *rootViewController = [storyboard instantiateInitialViewController];
+    self.window.rootViewController = rootViewController;
+    
     [self.window makeKeyAndVisible];
     
     //常规写法，同一界面响应时的排他性

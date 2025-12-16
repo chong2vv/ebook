@@ -14,24 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ArtAvoidCrash (1.0.3)
-  - BlocksKit (2.2.5):
-    - BlocksKit/All (= 2.2.5)
-  - BlocksKit/All (2.2.5):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-    - BlocksKit/MessageUI
-    - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.5)
-  - BlocksKit/DynamicDelegate (2.2.5)
-  - BlocksKit/MessageUI (2.2.5):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.5):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-  - Bugly (2.5.0)
   - IQKeyboardManager (6.2.0)
+  - libwebp (1.5.0):
+    - libwebp/demux (= 1.5.0)
+    - libwebp/mux (= 1.5.0)
+    - libwebp/sharpyuv (= 1.5.0)
+    - libwebp/webp (= 1.5.0)
+  - libwebp/demux (1.5.0):
+    - libwebp/webp
+  - libwebp/mux (1.5.0):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.5.0)
+  - libwebp/webp (1.5.0):
+    - libwebp/sharpyuv
   - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.15.7)
@@ -42,30 +37,74 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - TTTAttributedLabel (2.0.0)
+  - YDAlertAction (0.1.0):
+    - Masonry
+    - YDAlertAction/YDActionAlert (= 0.1.0)
+    - YDAlertAction/YDActionSheet (= 0.1.0)
+  - YDAlertAction/YDActionAlert (0.1.0):
+    - Masonry
+  - YDAlertAction/YDActionSheet (0.1.0):
+    - Masonry
+  - YDAuthorizationUtil (0.1.0)
+  - YDBlockKit (0.1.1)
+  - YDClearCacheService (0.1.0)
+  - YDFileManager (0.1.3)
+  - YDLogger (0.2.4):
+    - YDLogger/YDLog (= 0.2.4)
+    - YDLogger/YDLoggerUI (= 0.2.4)
+  - YDLogger/YDLog (0.2.4)
+  - YDLogger/YDLoggerUI (0.2.4):
+    - YDLogger/YDLog
+  - YDMonitor (0.1.0)
+  - YDUtilKit (0.1.6):
+    - YDUtilKit/YDBaseUI (= 0.1.6)
+    - YDUtilKit/YDFoundation (= 0.1.6)
+    - YDUtilKit/YDTools (= 0.1.6)
+    - YDUtilKit/YDUIKit (= 0.1.6)
+  - YDUtilKit/YDBaseUI (0.1.6)
+  - YDUtilKit/YDFoundation (0.1.6)
+  - YDUtilKit/YDTools (0.1.6):
+    - YDUtilKit/YDFoundation
+  - YDUtilKit/YDUIKit (0.1.6):
+    - YDUtilKit/YDBaseUI
+    - YDUtilKit/YDFoundation
+    - YDUtilKit/YDTools
+  - YDWebViewJavascriptBridge (0.1.0)
+  - YYCache (1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - libwebp (~> 1.5.0)
+    - YYImage/Core
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0)
-  - ArtAvoidCrash (~> 1.0.3)
-  - BlocksKit (~> 2.2.5)
-  - Bugly
-  - IQKeyboardManager
-  - Masonry
-  - MBProgressHUD (~> 1.0.0)
-  - MJRefresh
-  - NullSafe (~> 1.2.2)
+  - AFNetworking (~> 3.2)
+  - IQKeyboardManager (~> 6.2)
+  - Masonry (~> 1.1)
+  - MBProgressHUD (~> 1.0)
+  - MJRefresh (~> 3.1)
+  - NullSafe (~> 1.2)
   - pop (~> 1.0)
   - Reachability (~> 3.2)
   - SDWebImage (~> 3.8)
-  - TTTAttributedLabel
+  - TTTAttributedLabel (~> 2.0)
+  - YDAlertAction (~> 0.1.0)
+  - YDAuthorizationUtil (~> 0.1.0)
+  - YDBlockKit (~> 0.1.1)
+  - YDClearCacheService (~> 0.1.0)
+  - YDFileManager (~> 0.1.3)
+  - YDLogger (~> 0.2.4)
+  - YDMonitor (~> 0.1.0)
+  - YDUtilKit (~> 0.1.6)
+  - YDWebViewJavascriptBridge (~> 0.1.0)
+  - YYCache (~> 1.0.4)
+  - YYImage/Core (from `https://github.com/chong2vv/YYImage.git`)
+  - YYImage/WebP (from `https://github.com/chong2vv/YYImage.git`)
 
 SPEC REPOS:
-  http://gitlab.meishubao.com/ArtPods/ArtPodRepo.git:
-    - ArtAvoidCrash
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - BlocksKit
-    - Bugly
     - IQKeyboardManager
+    - libwebp
     - Masonry
     - MBProgressHUD
     - MJRefresh
@@ -74,13 +113,30 @@ SPEC REPOS:
     - Reachability
     - SDWebImage
     - TTTAttributedLabel
+    - YDAlertAction
+    - YDAuthorizationUtil
+    - YDBlockKit
+    - YDClearCacheService
+    - YDFileManager
+    - YDLogger
+    - YDMonitor
+    - YDUtilKit
+    - YDWebViewJavascriptBridge
+    - YYCache
+
+EXTERNAL SOURCES:
+  YYImage:
+    :git: https://github.com/chong2vv/YYImage.git
+
+CHECKOUT OPTIONS:
+  YYImage:
+    :commit: 92fa585479812809c435fd169d6bfac66537d038
+    :git: https://github.com/chong2vv/YYImage.git
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ArtAvoidCrash: 660120833b22f1c5d922f783fd92ce13dd5a9824
-  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
@@ -89,7 +145,18 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  YDAlertAction: 0ee391a42edd72d7c7887bbc2c8838d2c1224c7e
+  YDAuthorizationUtil: 6ac326f1c75fd82b222d5d9decda532123d4654f
+  YDBlockKit: d44c1114f70003df31224525455ee6e7136ec957
+  YDClearCacheService: 3b5d31652e5297db49c1f7169600c6deb863bc7e
+  YDFileManager: 249fdae72b418c82d815763bc5bc32a4661ebc83
+  YDLogger: 2ca7f3e445395befd1f21bd3a6e577c0c4833d01
+  YDMonitor: d52b625bdbac9df7765e5130c502af86802470ee
+  YDUtilKit: 72cff36de2dfd28c4873193fe4bf54cbff6452f8
+  YDWebViewJavascriptBridge: 5a62c8cf7eb710851f31541a80a591db1810129f
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 968ecadb57f0edf07ae345cecb76888298bfe958
 
-PODFILE CHECKSUM: 759a9fc14d00da08b99f6aca5b3b874abe4ab2b0
+PODFILE CHECKSUM: 10df4b3c34a03b9d6db5cd5650e5f1954b75b84a
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.16.2
